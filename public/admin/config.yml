@@ -2,10 +2,24 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: "public/assets/uploads" # 指定上傳的圖片要放在哪裡
-public_folder: "/assets/uploads" # 網站上顯示圖片的路徑
+media_folder: "public/assets/uploads"
+public_folder: "/assets/uploads"
 
 collections:
+  # --- 新增的區塊：頁面管理 ---
+  - name: "pages"
+    label: "頁面管理 (Pages)"
+    files:
+      - name: "home"
+        label: "首頁內容"
+        file: "public/content/pages/home.json"
+        fields:
+          - { label: "主標題", name: "hero_title", widget: "string" }
+          - { label: "副標題", name: "hero_subtitle", widget: "string" }
+          - { label: "說明文字", name: "hero_description", widget: "text" }
+          - { label: "背景圖片", name: "hero_background_image", widget: "image" }
+
+  # --- 我們原有的部落格和作品集設定 ---
   - name: "blog"
     label: "部落格文章 (Blog)"
     folder: "public/content/blog"
