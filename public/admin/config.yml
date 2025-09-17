@@ -2,15 +2,12 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: "public/assets"
-public_folder: "/assets"
+# 我們暫時移除 media_folder 和 public_folder 來排除變數
 
 collections:
-  - name: "pages"
-    label: "測試頁面"
-    folder: "public/content/pages"
+  - name: "test"
+    label: "除錯測試"
+    folder: "public/content/test" # 指向一個全新的、乾淨的路徑
     create: true
-    slug: "{{slug}}"
     fields:
-      - { label: "標題", name: "title", widget: "string" }
-      - { label: "內文", name: "body", widget: "markdown" }
+      - { name: "title", label: "標題", widget: "string" }
