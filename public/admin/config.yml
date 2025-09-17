@@ -2,12 +2,25 @@ backend:
   name: git-gateway
   branch: master
 
-# 我們暫時移除 media_folder 和 public_folder 來排除變數
+media_folder: "public/assets/uploads" # 指定上傳的圖片要放在哪裡
+public_folder: "/assets/uploads" # 網站上顯示圖片的路徑
 
 collections:
-  - name: "test"
-    label: "除錯測試"
-    folder: "public/content/test" # 指向一個全新的、乾淨的路徑
+  - name: "blog"
+    label: "部落格文章 (Blog)"
+    folder: "public/content/blog"
     create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { name: "title", label: "標題", widget: "string" }
+      - { label: "標題 (Title)", name: "title", widget: "string" }
+      - { label: "發布日期 (Date)", name: "date", widget: "datetime" }
+      - { label: "內文 (Body)", name: "body", widget: "markdown" }
+
+  - name: "showcase"
+    label: "作品集 (Showcase)"
+    folder: "public/content/showcase"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "標題 (Title)", name: "title", widget: "string" }
+      - { label: "內文 (Body)", name: "body", widget: "markdown" }
