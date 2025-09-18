@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import shcLogo from '../assets/shc_logo.png'
 import { Link, useLocation } from 'react-router-dom'
 import { Menu, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
@@ -23,7 +24,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0">
-              <span className="text-2xl font-bold text-primary">Basilisk Taiwan</span>
+              <img src={shcLogo} alt="SHC Logo" className="h-8 w-auto" />
             </Link>
           </div>
 
@@ -92,4 +93,3 @@ const Navbar = () => {
 }
 
 export default Navbar
-
