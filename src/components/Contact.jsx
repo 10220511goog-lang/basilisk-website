@@ -56,19 +56,19 @@ const Contact = () => {
     {
       icon: <Phone className="h-6 w-6" />,
       title: '電話',
-      content: '+886 0911005440',
+      content: '+886-2-1234-5678',
       description: '週一至週五 09:00-18:00'
     },
     {
       icon: <Mail className="h-6 w-6" />,
       title: 'Email',
-      content: 'greenbuilt2023@gmail.com',
+      content: 'info@basilisk.com.tw',
       description: '24小時內回覆'
     },
     {
       icon: <MapPin className="h-6 w-6" />,
       title: '地址',
-      content: 'No.18, Alley 56 Le Quang Dao, Phu Do Ward, Nam Tu Liem District, Hanoi',
+      content: '台北市信義區信義路五段7號 台北101大樓35樓',
       description: '綠築貿易有限公司'
     },
     {
