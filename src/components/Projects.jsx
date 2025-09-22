@@ -28,7 +28,7 @@ const Projects = () => {
         '預計延長使用壽命20年',
         '節省維修成本60%'
       ],
-      technologies: ['REGEN防水砂漿', 'Basilisk Healing Agent'],
+      technologies: ['REGEN防水砂漿', 'GreenBuilt Healing Agent'],
       area: '5,000 m²'
     },
     {
@@ -45,7 +45,7 @@ const Projects = () => {
         '結構強度完全恢復',
         '維修週期延長至10年'
       ],
-      technologies: ['自癒混凝土', 'Basilisk Healing Agent'],
+      technologies: ['自癒混凝土', 'GreenBuilt Healing Agent'],
       area: '3,200 m²'
     },
     {
@@ -79,7 +79,7 @@ const Projects = () => {
         '抗重載能力增強',
         '維修頻率降低70%'
       ],
-      technologies: ['自癒混凝土', 'Basilisk Healing Agent'],
+      technologies: ['自癒混凝土', 'GreenBuilt Healing Agent'],
       area: '12,000 m²'
     }
   ]
@@ -231,7 +231,7 @@ const Projects = () => {
               客戶見證
             </h2>
             <p className="text-xl text-gray-600">
-              聽聽我們客戶對Basilisk自癒混凝土技術的評價
+              聽聽我們客戶對GreenBuilt自癒混凝土技術的評價
             </p>
           </div>
 
@@ -239,7 +239,7 @@ const Projects = () => {
             <Card>
               <CardContent className="p-8">
                 <p className="text-lg text-gray-600 mb-6 italic">
-                  "使用Basilisk自癒混凝土技術後，我們的地下室滲漏問題完全解決了。這項技術不僅效果顯著，而且為我們節省了大量的維修成本。"
+                  "使用GreenBuilt自癒混凝土技術後，我們的地下室滲漏問題完全解決了。這項技術不僅效果顯著，而且為我們節省了大量的維修成本。"
                 </p>
                 <div className="flex items-center">
                   <div>
@@ -253,7 +253,7 @@ const Projects = () => {
             <Card>
               <CardContent className="p-8">
                 <p className="text-lg text-gray-600 mb-6 italic">
-                  "在海事工程環境中，Basilisk的自癒混凝土表現出色。抗海水侵蝕的能力遠超我們的預期，大大延長了結構的使用壽命。"
+                  "在海事工程環境中，GreenBuilt的自癒混凝土表現出色。抗海水侵蝕的能力遠超我們的預期，大大延長了結構的使用壽命。"
                 </p>
                 <div className="flex items-center">
                   <div>

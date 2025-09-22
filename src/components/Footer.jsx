@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="col-span-1">
-            <h3 className="text-2xl font-bold mb-4">Basilisk Taiwan</h3>
+            <h3 className="text-2xl font-bold mb-4">GreenBuilt Taiwan</h3>
             <p className="text-gray-300 mb-4">
               「療癒系」自我修復水泥，讓您告別滲漏的隱患！
             </p>
@@ -88,7 +88,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
           <p className="text-gray-300">
-            © 2024 Basilisk Taiwan. All rights reserved. | 
+            © 2024 GreenBuilt Taiwan. All rights reserved. | 
             <Link to="/privacy" className="hover:text-white ml-2">隱私政策</Link> | 
             <Link to="/terms" className="hover:text-white ml-2">使用條款</Link>
           </p>

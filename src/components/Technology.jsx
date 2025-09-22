@@ -39,7 +39,7 @@ const Technology = () => {
           <div className="text-center">
             <h1 className="text-5xl font-bold mb-6">產品原理</h1>
             <p className="text-xl max-w-3xl mx-auto">
-              了解Basilisk自癒混凝土的革命性技術原理，以及如何為您的建築提供長期保護
+              了解GreenBuilt自癒混凝土的革命性技術原理，以及如何為您的建築提供長期保護
             </p>
           </div>
         </div>
@@ -170,7 +170,7 @@ const Technology = () => {
                 技術優勢
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Basilisk自癒混凝土技術帶來的多重優勢，為建築業帶來革命性的改變
+                GreenBuilt自癒混凝土技術帶來的多重優勢，為建築業帶來革命性的改變
               </p>
               <div className="space-y-4">
                 {advantages.map((advantage, index) => (

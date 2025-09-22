@@ -125,7 +125,7 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              荷蘭Basilisk自癒混凝土
+              荷蘭GreenBuilt自癒混凝土
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               這項獨特的修復系統是利用一種可生成石灰石結晶的生物添加劑，使混凝土擁有自行產生防水層和修護裂痕的能力，因此可大幅延長混凝土建築物的壽命及降低維修成本。

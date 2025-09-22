@@ -56,20 +56,20 @@ const Contact = () => {
     {
       icon: <Phone className="h-6 w-6" />,
       title: '電話',
-      content: '+886-2-1234-5678',
+      content: '+886 0911005440',
       description: '週一至週五 09:00-18:00'
     },
     {
       icon: <Mail className="h-6 w-6" />,
       title: 'Email',
-      content: 'info@basilisk.com.tw',
+      content: 'greenbuilt2023@gmail.com',
       description: '24小時內回覆'
     },
     {
       icon: <MapPin className="h-6 w-6" />,
       title: '地址',
-      content: '台北市信義區信義路五段7號',
-      description: '台北101大樓35樓'
+      content: 'No.18, Alley 56 Le Quang Dao, Phu Do Ward, Nam Tu Liem District, Hanoi',
+      description: '綠築貿易有限公司'
     },
     {
       icon: <Clock className="h-6 w-6" />,
@@ -268,7 +268,7 @@ const Contact = () => {
                     <div className="text-center">
                       <MapPin className="h-12 w-12 text-gray-400 mx-auto mb-2" />
                       <p className="text-gray-600">地圖位置</p>
-                      <p className="text-sm text-gray-500">台北101大樓35樓</p>
+                      <p className="text-sm text-gray-500">綠築貿易有限公司</p>
                     </div>
                   </div>
                 </CardContent>

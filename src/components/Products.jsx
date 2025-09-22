@@ -8,7 +8,7 @@ const Products = () => {
   const products = [
     {
       id: 1,
-      name: 'Basilisk Healing Agent',
+      name: 'GreenBuilt Healing Agent',
       category: '自癒添加劑',
       description: '全球唯一能夠重複產生防水保護層並且能夠重複修復的生物型自癒原料',
       features: [
@@ -157,7 +157,7 @@ const Products = () => {
               產品優勢
             </h2>
             <p className="text-xl text-gray-600">
-              為什麼選擇Basilisk自癒混凝土產品
+              為什麼選擇GreenBuilt自癒混凝土產品
             </p>
           </div>
 

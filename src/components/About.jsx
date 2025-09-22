@@ -32,7 +32,7 @@ const About = () => {
     {
       year: '2019',
       title: '公司成立',
-      description: '正式引進荷蘭Basilisk自癒混凝土技術到台灣'
+      description: '正式引進荷蘭GreenBuilt自癒混凝土技術到台灣'
     },
     {
       year: '2020',
@@ -90,7 +90,7 @@ const About = () => {
           <div className="text-center">
             <h1 className="text-5xl font-bold mb-6">關於我們</h1>
             <p className="text-xl max-w-3xl mx-auto">
-              Basilisk Taiwan致力於將世界領先的自癒混凝土技術帶到台灣，為建築業創造更永續的未來
+              GreenBuilt Taiwan致力於將世界領先的自癒混凝土技術帶到台灣，為建築業創造更永續的未來
             </p>
           </div>
         </div>
@@ -111,7 +111,7 @@ const About = () => {
                 目前全台超過三十年的老屋已超過50%，老屋漏水的情形比比皆是，長期漏水有可能導致鋼筋鏽蝕，進而引發結構安全問題。
               </p>
               <p className="text-lg text-gray-600 mb-8">
-                我們引進荷蘭Basilisk自癒混凝土技術，為台灣的建築業提供創新的解決方案，讓建築物擁有自我修復的能力，大幅延長使用壽命並降低維修成本。
+                我們引進荷蘭GreenBuilt自癒混凝土技術，為台灣的建築業提供創新的解決方案，讓建築物擁有自我修復的能力，大幅延長使用壽命並降低維修成本。
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
