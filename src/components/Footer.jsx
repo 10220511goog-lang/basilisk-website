@@ -100,3 +100,6 @@ const Footer = () => {
 
 export default Footer
 
+
+// Trigger Netlify redeploy
+
